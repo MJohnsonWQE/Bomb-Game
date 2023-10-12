@@ -28,6 +28,7 @@ public class Program
             {
                 Console.WriteLine("You found the exit and escaped!");
                 Console.WriteLine("You Win!");
+                Console.ReadLine(); // Stops the code from closing
                 Environment.Exit(0);
             }
             if (health == 0)
